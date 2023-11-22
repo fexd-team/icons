@@ -8,7 +8,7 @@ export default {
   publicPath: process.env.NODE_ENV === 'production' ? '/icons/' : '/',
   history: { type: 'hash' },
   resolve: {
-    includes: ['documents', 'src'],
+    includes: ['documents', 'packages'],
   },
   // navs: [null, { title: `v${version}` }],
 }

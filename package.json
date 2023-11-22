@@ -9,7 +9,7 @@
     "clean:build": "rimraf ./packages/*/lib ./packages/*/es",
     "icon": "node ./scripts/createIcon.js",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
-    "publish": "changeset publish"
+    "release": "changeset publish"
   },
   "peerDependencies": {
     "react": ">=16",
